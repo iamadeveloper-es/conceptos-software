@@ -12,7 +12,7 @@
     </div>
 </section>
 <section class="section">
-<div class="container" id="variables">
+    <div class="container" id="variables">
         <div class="row">
             <div class="col-12 destacado">
                 <h3>Variables y constantes</h3>
@@ -62,7 +62,7 @@
     </div>
 </section>
 <section class="section" id="tipos-datos">
-    <div class="container" id="constantes">
+    <div class="container">
         <div class="row">
             <div class="col-12">
                 <h3>Tipos de datos</h3>
@@ -77,7 +77,7 @@
             </div>
         </div>
     </div>
-    <div class="container" id="constantes">
+    <div class="container">
         <div class="row">
             <div class="col-12 mt-3 destacado">
                 <h4>Tipo de datos número: int</h4>
@@ -131,6 +131,119 @@
                 <p>
                 Suelen tener dos valores identificados, <strong class="cl-azul">true</strong> (verdadero) o <strong class="cl-azul">false</strong> (falso). En algunos lenguajes puede equivaler a los números 0 y 1.
                 </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section" id="operadores">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3>Operadores</h3>
+                <p>
+                Al igual que los tipos de datos los operadores pueden variar dependiendo del lengauje de programación.
+                </p>    
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-12 mt-3 destacado">
+                <h4>Operadores Aritméticos:</h4>
+                <ul>
+                    <li>Suma + .</li>
+                    <li>Resta - .</li>
+                    <li>Multiplicación * .</li>
+                    <li>División / .</li>
+                    <li>Resto de la División(MOD) % .</li>
+                </ul>  
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 mt-3 destacado">
+                <h4>Operadores de Asignación:</h4>
+                <p>
+                El principal es '=' pero hay más operadores de asignación con distintas funciones que explicamos brevemente ahora.
+                </p>
+                <ul>
+                    <li>'+=' : op1 += op2 à op1 = op1 + op2</li>
+                    <li>'-=' : op1 -= op2 à op1 = op1 - op2</li>
+                    <li>'*=' : op1 *= op2 à op1 = op1 * op2</li>
+                    <li>'/=' : op1 /= op2 à op1 = op1 / op2</li>
+                    <li>'%=' : op1 %= op2 à op1 = op1 % op2</li>
+                </ul>  
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 mt-3 destacado">
+                <h4>Operadores Incrementales:</h4>
+                <p>
+                Son los operadores que nos permiten incrementar las variables en una unidad.
+                </p>
+                <ul>
+                    <li>'++'</li>
+                    <li>'--'</li>
+                </ul>  
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 mt-3 destacado">
+                <h4>Operadores Relacionales:</h4>
+                <p>
+                Permiten comparar variables según relación de igualdad/desigualdad o relacción mayor/menor. Devuelven siempre un valor boolean.
+                </p>
+                <ul>
+                    <li>'>': Mayor que</li>
+                    <li>'<': Menor que</li>
+                    <li>'==': Iguales (en algunos lenguajes '==' compara valor e '===' compara tipo de dato y valor)</li>
+                    <li>'¡=': Distintos</li>
+                    <li>'>=': Mayor o igual que</li>
+                    <li>'<=': Menor o igual que</li>
+                </ul>  
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 mt-3 destacado">
+                <h4>Operadores Lógicos:</h4>
+                <p>
+                Nos permiten construir expresiones lógicas.
+                </p>
+                <ul>
+                    <li>'&&' : devuelve true si ambos operandos son true.</li>
+                    <li>'||' : devuelve true si alguno de los operandos son true.</li>
+                    <li>'!' : Niega el operando que se le pasa.</li>
+                    <li>'&' : devuelve true si ambos operandos son true, evaluándolos ambos.</li>
+                    <li>'|' : devuelve true uno de los operandos es true, evaluándolos ambos.</li>
+                </ul>  
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 mt-3 destacado">
+                <h4>Otros Operadores</h4>
+                <p>
+                Son mucho menos utilizados por eso los explicamos mas por encima.
+                </p>
+                <ul>
+                    <li>
+                        Operadores que actúan a nivel de bits:
+                        <ul>
+                            <li>'>>': desplazamiento a la derecha de los bits del operando</li>
+                            <li>'<<': desplazamiento a la izquierda de los bits de operando</li>
+                            <li>'&': operador and a nivel de bit.</li>
+                            <li>'&' : devuelve true si ambos operandos son true, evaluándolos ambos.</li>
+                            <li>'|' : devuelve true uno de los operandos es true, evaluándolos ambos.</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Operador Instanceof: <br>
+                        Nos permite saber si un objeto pertenece a una clase o no.
+                        <ul>
+                            <li>
+                                NombreObjeto instanceof NombreClase
+                            </li>
+                        </ul>
+                    </li>
+                </ul>  
             </div>
         </div>
     </div>
