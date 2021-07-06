@@ -6,6 +6,7 @@
                 </div>
             </div>
         </div>
-    </footer>  
+    </footer>
+    <script src="https://kit.fontawesome.com/c03cff1ae3.js" crossorigin="anonymous"></script>  
 </body>
 </html>

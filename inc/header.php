@@ -18,8 +18,8 @@
     <nav class="nav">
         <ul>
             <li>
-                <a href="">
-                    item
+                <a href="./index.php">
+                    Inicio
                 </a>
             </li>
             <li>
