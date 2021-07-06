@@ -23,8 +23,8 @@
                 </a>
             </li>
             <li>
-                <a href="">
-                    item
+                <a href="./fundamentos_de_programacion.php">
+                    Fundamentos
                 </a>
             </li>
             <li>
