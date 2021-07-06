@@ -22,14 +22,19 @@
                     Inicio
                 </a>
             </li>
-            <li>
+            <li class="sub-menu">
                 <a href="./fundamentos_de_programacion.php">
                     Fundamentos
                 </a>
+                <ul class="drop-down">
+                    <li><a href="./fundamentos_de_programacion.php#variables">Variables</a></li>
+                    <li><a href="./fundamentos_de_programacion.php#constantes">Constantes</a></li>
+                    <li><a href="./fundamentos_de_programacion.php#tipos-datos">Tipos de datos</a></li>
+                </ul>
             </li>
             <li>
-                <a href="">
-                    item
+                <a href="./poo.php">
+                    POO
                 </a>
             </li>
             <li>
