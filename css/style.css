@@ -1,0 +1,90 @@
+/* Variables Globales */
+:root{
+    --cl-textos: #181818;
+    --cl-blanco: #ffffff;
+    --cl-morado: #553E7C;
+    --cl-background: #f0f0f0;
+}
+
+/* Estilos globales */
+*, *::before, *::after, 
+*:before, *:after{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--cl-background);
+}
+
+h1, h2, h3, h4, h5{
+    color: var(--cl-textos);
+}
+h2, h3, h4, h5{
+    font-weight: 500;
+}
+h1{
+    font-weight: 700;
+}
+
+h2{
+    font-size: 30px;
+}
+
+h3{
+    font-size: 26px;
+}
+
+h4{
+    font-size: 24px;
+}
+
+h4{
+    font-size: 22px;
+}
+
+p{
+    font-size: 16px;
+    color: var(--cl-textos);
+}
+.section{
+    margin-top: 50px;
+}
+
+/* Fin estilos globales */
+
+/* Header */
+.header{
+    background-color: var(--cl-morado);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+.header ul{
+    list-style: none;
+    margin: 0;
+    display: flex;
+}
+.header a{
+    display: inline-block;
+    padding: 10px;
+    color: var(--cl-blanco);
+}
+.header h1{
+    font-size: 25px;
+    margin: 0;
+    color: var(--cl-blanco);
+}
+
+/* Footer */
+.footer{
+    margin-top: 50px;
+    padding: 25px 15px;
+    background-color: var(--cl-morado);
+}
+.footer p{
+    color: var(--cl-blanco);
+    margin: 0;
+}
