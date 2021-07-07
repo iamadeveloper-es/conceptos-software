@@ -16,7 +16,8 @@
         <h1>Conceptos Software</h1>
     </div>
     <nav class="nav">
-        <ul>
+        <span class="burger-menu fas fa-bars"></span>
+        <ul id="nav-ul">
             <li>
                 <a href="./index.php">
                     Inicio

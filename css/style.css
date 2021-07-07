@@ -71,18 +71,35 @@ p{
 /* Header */
 .header{
     background-color: var(--cl-morado);
+    position: relative;
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
     align-items: center;
     justify-content: space-between;
     padding: 15px;
-   /*  position: sticky;
-    top: 0;
-    z-index: 90; */
+}
+.header .nav{
+    flex-direction: column;
+}
+.header .nav .burger-menu{
+    color: var(--cl-blanco);
+
 }
 .header ul{
     list-style: none;
     margin: 0;
-    display: flex;
+    display: none;
+    padding: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: var(--cl-morado);
+    z-index: 90;
+}
+.header ul.open{
+    display: block;
 }
 .header a{
     display: inline-block;
@@ -97,15 +114,13 @@ p{
 .header .sub-menu{
     position: relative;
 }
-.header .sub-menu:hover .drop-down{
-    display: block;
-}
 .header .drop-down{
     position: absolute;
     margin: 0;
     padding: 0;
     display: none;
     background-color: var(--cl-morado);
+    z-index: 90;
 }
 
 /* Footer */
@@ -117,4 +132,52 @@ p{
 .footer p{
     color: var(--cl-blanco);
     margin: 0;
+}
+
+/* Button Scroll Top */
+.btn-scroll-top{
+    width: 25px;
+    height: 25px;
+    background-color: var(--cl-morado);
+    padding: 18px;
+    border-radius: 50%;
+    border: 1px solid var(--cl-blanco);
+    position: fixed;
+    display: none;
+    right: 1rem;
+    bottom: 2rem;
+    cursor: pointer;
+}
+.show{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-scroll-top span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--cl-blanco);
+}
+
+/* Media queris */
+@media screen and (min-width: 1200px){
+    .header{
+        flex-direction: row;
+        align-items: center;
+    }
+    .header .nav{
+        flex-direction: row;
+    }
+    .header .nav .burger-menu{
+        display: none;
+    }
+    .header ul{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+    }
+    .header .sub-menu:hover .drop-down{
+        display: block;
+    }
 }
