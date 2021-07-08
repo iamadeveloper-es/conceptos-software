@@ -38,6 +38,12 @@
                     <li><a href="./fundamentos_de_programacion.php#funciones">Funciones</a></li>
                 </ul>
             </li>
+            <li class="sub-menu">
+                <a href="./ejercicios.php">Ejercicios</a>
+                <ul class="drop-down">
+                    <li><a href="./ejercicios.php#fundamentos">Fundamentos</a></li>
+                </ul>
+            </li>
             <li>
                 <a href="./poo.php">
                     POO

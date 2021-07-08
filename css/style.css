@@ -118,6 +118,7 @@ p{
 }
 .header .drop-down{
     position: absolute;
+    width: auto;
     margin: 0;
     padding: 0;
     display: none;
