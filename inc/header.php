@@ -31,6 +31,11 @@
                     <li><a href="./fundamentos_de_programacion.php#variables">Variables</a></li>
                     <li><a href="./fundamentos_de_programacion.php#constantes">Constantes</a></li>
                     <li><a href="./fundamentos_de_programacion.php#tipos-datos">Tipos de datos</a></li>
+                    <li><a href="./fundamentos_de_programacion.php#operadores">Operadores</a></li>
+                    <li><a href="./fundamentos_de_programacion.php#condicionales">Condicionales</a></li>
+                    <li><a href="./fundamentos_de_programacion.php#arrays">Arrays</a></li>
+                    <li><a href="./fundamentos_de_programacion.php#loops">Loops</a></li>
+                    <li><a href="./fundamentos_de_programacion.php#funciones">Funciones</a></li>
                 </ul>
             </li>
             <li>

@@ -21,7 +21,7 @@ window.addEventListener('scroll', () => {
     }else{
         btnScrollTop.classList.remove('show');
     }
-    console.log(y)
+    //console.log(y)
 });
 
 btnScrollTop.addEventListener('click', () => {

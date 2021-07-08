@@ -5,6 +5,7 @@
     --cl-morado: #553E7C;
     --cl-background: #f0f0f0;
     --cl-azul: #07a;
+    --fondo-codigo: #00051f;
 }
 
 /* Estilos globales */
@@ -63,6 +64,7 @@ p{
     background-color: white;
     box-shadow: 2px 2px 8px rgb(212 212 212);
     border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 
@@ -158,6 +160,24 @@ p{
     justify-content: center;
     align-items: center;
     color: var(--cl-blanco);
+}
+.codigo{
+    background-color: var(--fondo-codigo);
+    border-radius: 10px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.codigo code{
+    --cl-azul: #2cc0ff;
+    color: var(--cl-blanco);
+    font-size: 16px;
+
+}
+.codigo pre{
+    margin-bottom: 0;
+}
+.codigo strong{
+    text-decoration: underline;
 }
 
 /* Media queris */
