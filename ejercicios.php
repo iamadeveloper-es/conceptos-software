@@ -28,20 +28,32 @@
                         <a href="https://javadesdecero.es/io/maneras-lectura-datos-java/" target="_blank" rel="noopener noreferrer">Ayuda<span class="fas fa-external-link-alt"></span></a>
                     </li>
                     <li class="mt-3">Modifique el programa anterior de modo que solo los usuarios Alice y Bob sean recibidos con sus nombres.</li>
-                    <li class="mt-3">Escribe un programa que le pida al usuario un número n imprima la suma de los números del 1 al n</li>
-                    <li class="mt-3">Modifica el programa anterior de modo que solo se consideren múltiplos de tres o cinco en la suma, por ejemplo, 3, 5, 6, 9, 10, 12, 15 para n = 17</li>
+                    <li class="mt-3">Escribe un programa que imprima todos los números del 1 al 100.</li>
+                    <li class="mt-3">Escribe un programa que imprima todos los números del 100 al 1.</li>
+                    <li class="mt-3">Escribe un programa que le pida al usuario un número n e imprima la suma de los números del 1 al n</li>
                     <li class="mt-3">Escribe un programa que le pida al usuario un número n y le dé la posibilidad de elegir entre calcular la suma y calcular el producto de 1,… n,.</li>
                     <li class="mt-3">Escribe un programa que imprima una tabla de multiplicar para números hasta el 12.</li>
-                    <li class="mt-3">Escribe un programa que imprima todos los números primos. (Nota: si tu lenguaje de programación no admite números de tamaño arbitrarios, imprimir todos los números primos hasta el número más grande que pueda representar fácilmente también está bien).</li>
                     <li class="mt-3">Escribe un programa que imprima el factorial de un numero.</li>
                 </ol>
                 <h4 class="mt-4">Arrays (Listas), Strings (cadenas)</h4>
                 <ol class="mt-4">
-                    <li class="mt-3">Escribe una función que devuelva el elemento más grande de una lista.</li>
+                    <li class="mt-3">Escribe un programa que devuelva el elemento más grande de una lista (Array) de números.</li>
+                    <li class="mt-3">Escribe un programa que devuelva el elemento más grande de una lista (Array) de Strings.
+                    <a href="https://syntaxdb.com/ref/java/string-length" target="_blank" rel="noopener noreferrer">Ayuda<span class="fas fa-external-link-alt"></span></a>
+                    </li>
+                    <li class="mt-3">Escribe un programa que ordene un Array de números de menor a mayor.
+                    <a href="http://lineadecodigo.com/java/ordenar-array-java/" target="_blank" rel="noopener noreferrer">Ayuda<span class="fas fa-external-link-alt"></span></a>
+                    </li>
                     <li class="mt-3">Escribe un programa que invierta un Array</li>
-                    <li class="mt-3">Escribe una función que verifique si un elemento aparece en una lista.</li>
-                    <li class="mt-3">Escribe una función que devuelva los elementos en posiciones impares en una lista.</li>
-                    <li class="mt-3">Escribe una función que calcule el total acumulado de una lista.</li>
+                    <li class="mt-3">Escribe un programa que verifique si un elemento aparece en una lista.</li>
+                    <li class="mt-3">Escribe un programa que devuelva los elementos en posiciones impares en una lista.</li>
+                    <li class="mt-3">Escribe un programa que calcule el total acumulado de una lista.</li>
+                </ol>
+                <h4 class="mt-4">Funciones</h4>
+                <ol class="mt-4">
+                    <li class="mt-3">Escribe todos los ejercicios anteriores pero con funciones.</li>
+                    <li class="mt-3">Escribe una función que sume dos números</li>
+                    <li class="mt-3">Escribe una función que pida dos números al usuario y otra que sume las cantidades</li>
                 </ol>
             </div>
         </div>
