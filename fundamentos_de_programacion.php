@@ -6,7 +6,6 @@
             <div class="col-12">
                 <h2>Fundamentos de programación</h2>
                 <p>Programar no se trata de código, se trata de lógica. Un 90% del desarrollo de un programa es pensar y sólo un 10% programar en código.</p>
-                <a href="https://stackblitz.com/edit/fundamentos-de-programacion?file=index.ts" target="_blank" rel="noopener noreferrer">Ejemplo práctico <span class="fas fa-external-link-alt"></span></a>
             </div>
         </div>
     </div>

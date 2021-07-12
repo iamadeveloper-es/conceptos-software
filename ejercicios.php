@@ -54,6 +54,20 @@
                     <li class="mt-3">Escribe todos los ejercicios anteriores pero con funciones.</li>
                     <li class="mt-3">Escribe una función que sume dos números</li>
                     <li class="mt-3">Escribe una función que pida dos números al usuario y otra que sume las cantidades</li>
+                    <li class="mt-3">Una empresa que trabaja con vehículos desea calcular las necesidades de combustible (cantidad de combustible necesario para llenar los depósitos de todos sus vehículos) para lo cual nos han facilitado los siguientes datos. Se desea crear un programa para que puedan realizar el cálculo de forma automatizada.
+                    <div class="codigo mt-3">
+                    <pre>
+<code>
+- int turismos = 32
+- int todoTerrenos = 11
+- int capacidadCombustibleTurismos = 40
+- int capacidadCombustibleTodoTerrenos =  65
+
+- int NecesidadesCombustible = turismos * capacidadCombustibleTurismos + todoTerrenos * capacidadCombustibleTodoTerrenos
+</code>
+                    </pre>
+                    </div>
+                    </li>
                 </ol>
             </div>
         </div>
