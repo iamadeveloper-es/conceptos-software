@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2>Fundamentos de programaciónpjpkjkjk</h2>
+                <h2>Fundamentos de programación</h2>
                 <p>Programar no se trata de código, se trata de lógica. Un 90% del desarrollo de un programa es pensar y sólo un 10% programar en código.</p>
             </div>
         </div>
