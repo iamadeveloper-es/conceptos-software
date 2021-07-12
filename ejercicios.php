@@ -63,7 +63,8 @@
 - int capacidadCombustibleTurismos = 40
 - int capacidadCombustibleTodoTerrenos =  65
 
-- int NecesidadesCombustible = turismos * capacidadCombustibleTurismos + todoTerrenos * capacidadCombustibleTodoTerrenos
+- int NecesidadesCombustible = 
+ turismos * capacidadCombustibleTurismos + todoTerrenos * capacidadCombustibleTodoTerrenos
 </code>
                     </pre>
                     </div>
