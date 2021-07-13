@@ -270,6 +270,7 @@
 <span class="cl-azul">if</span> (expresion) {
     Líneas de código que se ejecutan
     si se cumple la condición.
+    
 }
     </code>
                     </pre>

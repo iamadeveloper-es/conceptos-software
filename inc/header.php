@@ -51,7 +51,7 @@
             </li>
             <li>
                 <a href="">
-                    item
+                    GIT
                 </a>
             </li>
         </ul>
