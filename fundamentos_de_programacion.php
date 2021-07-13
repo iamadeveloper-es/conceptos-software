@@ -140,7 +140,7 @@
             <div class="col-12">
                 <h3>Operadores</h3>
                 <p>
-                Al igual que los tipos de datos los operadores pueden variar dependiendo del lengauje de programación.
+                Al igual que los tipos de datos los operadores pueden variar dependiendo del lenguaje de programación.
                 </p>    
             </div>
         </div>
@@ -189,7 +189,7 @@
             <div class="col-12 destacado">
                 <h4>Operadores Relacionales:</h4>
                 <p>
-                Permiten comparar variables según relación de igualdad/desigualdad o relacción mayor/menor. Devuelven siempre un valor boolean.
+                Permiten comparar variables según relación de igualdad/desigualdad o relación mayor/menor. Devuelven siempre un valor boolean.
                 </p>
                 <ul>
                     <li>'>': Mayor que</li>
@@ -435,7 +435,7 @@
 <code>
     
     // Vamos a evaluar la variable <strong>dia</strong> con un <strong>switch</strong> 
-    sin <strong>break</strong> después de todos los <strong>case</strong> para que el programa nos diga si es día es laborable o festivo.
+    sin <strong>break</strong> después de todos los <strong>case</strong> para que el programa nos diga si es día laborable o festivo.
 
     <span class="cl-azul">string</span> tipoDeDia;
     <span class="cl-azul">int</span> diaSemana = 5;
@@ -528,7 +528,7 @@
                      <pre>
 <code>
     
-    // Para acceder a los elementos del Array harémos referencia al índice donde se encuentra el elementos
+    // Para acceder a los elementos del Array harémos referencia al índice donde se encuentra el elemento
 
     // Esta sentencia accede al tercer elemento
 
@@ -782,7 +782,7 @@
                  </div> 
                  <h5>Parámetros</h5>
                  <p>Los parámetros se usan para mandar valores a las funciones. Una función trabajará con los parámetros para realizar las acciones. Por decirlo de otra manera, los parámetros son los valores de entrada que recibe una función.</p>
-                 <p>Si una función tiene dos o más perámetros se escriben separados por coma.</p>
+                 <p>Si una función tiene dos o más parámetros se escriben separados por coma.</p>
                  <div class="codigo ">
                      <pre>
 <code>
