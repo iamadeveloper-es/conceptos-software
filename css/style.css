@@ -66,6 +66,9 @@ p{
     border-radius: 10px;
     margin-bottom: 30px;
 }
+li{
+    margin-top: 15px;
+}
 
 
 /* Fin estilos globales */
